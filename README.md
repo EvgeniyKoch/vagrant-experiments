@@ -12,7 +12,7 @@
 ``vagrant destroy``
 - install plugins
 ``vagrant plugin install vagrant-parallels``
-- vagrant provision вызывает запуск провайдеров, определенных в файле Vagrant. Провизоры в Vagrant - это инструменты, позволяющие пользователям настраивать конфигурацию виртуальных сред:
+- vagrant provisioning causes the providers defined in the Vagrant file to run. Provisioners in Vagrant are tools that allow users to customise the configuration of virtual environments:
 ``vagrant provision``
-- Подключение к виртуальной машине
+- Connecting to a virtual machine:
 ``vagrant ssh``
