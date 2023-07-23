@@ -1,4 +1,4 @@
-# vagrant-experiments
+# Vagrant commands:
 
 - Initialisation of vargant:
 ``vagrant init ubuntu/focal64``
@@ -16,3 +16,7 @@
 ``vagrant provision``
 - Connecting to a virtual machine:
 ``vagrant ssh``
+- Temporarily suspend the virtual machine. This is like hibernation mode on your computer: all current operations and states are preserved, but CPU, RAM, and other resources are freed up:
+``vagrant suspend``
+- Resume the virtual machine:
+``vagrant resume``
