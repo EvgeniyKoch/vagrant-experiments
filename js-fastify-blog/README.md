@@ -66,4 +66,4 @@ This repository is created and maintained by the team and the community of Hexle
 
 See most active contributors on [hexlet-friends](https://friends.hexlet.io/).
 
-Need to change link python3 to python, because node-gyp, the tool used to build native Node.js modules, searches for Python by default under the name python:``sudo ln -s /usr/bin/python3 /usr/bin/python`` or may try to add ``python=/usr/bin/python3`` into .npmrc
+Need to change link python3 to python, because node-gyp, the tool used to build native Node.js modules, searches for Python by default under the name python:``sudo ln -s /usr/bin/python3 /usr/bin/python`` or to add ``python=/usr/bin/python3`` into .npmrc
